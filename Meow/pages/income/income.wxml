@@ -1,0 +1,25 @@
+<image src="/pages/image/myRecipes.png" class="in-image"></image>
+<text class="FoodAnalyze">菜谱影响分析</text>
+<view >
+  <template name="NutriKind">
+  <view>
+    <view class="nutri_style">
+    {{kind}}
+    <view class="min_style">最少{{min}}g</view>
+    <view class="con_style">标准{{con}}g</view>
+    <view class="max_style">最大{{max}}g</view>
+   </view>
+  </view>
+  </template>
+  <template is="NutriKind" data="{{...NutriKind1}}"></template>
+  <template is="NutriKind" data="{{...NutriKind2}}"></template>
+  <template is="NutriKind" data="{{...NutriKind3}}"></template>
+  <template is="NutriKind" data="{{...NutriKind4}}"></template>
+  <template is="NutriKind" data="{{...NutriKind5}}"></template>
+  <template is="NutriKind" data="{{...NutriKind6}}"></template>
+  <template is="NutriKind" data="{{...NutriKind7}}"></template>
+  <template is="NutriKind" data="{{...NutriKind8}}"></template>
+</view>
+<view class="container">
+  <ec-canvas style="width: 80%; height: 500px;" id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec }}"></ec-canvas>
+</view>

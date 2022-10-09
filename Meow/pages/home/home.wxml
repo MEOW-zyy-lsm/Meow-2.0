@@ -1,0 +1,22 @@
+<!--pages/home/home.wxml-->
+<view class='background'>
+  <image class='background-image' src='/pages/image/food.jpg' class='in-image'mode='widthFix'></image>
+  <view class='background-content'>
+    <view background-size="cover" class='HomeText'>
+      <navigator url="/pages/info/info"open-type="navigate">
+      做猫饭
+      </navigator>
+    </view>
+  </view>
+</view>
+<view class='background'>
+  <image class='background-image' src='/pages/image/food1.jpg' class='in-image'mode='widthFix'></image>
+  <view class='background-content'>
+    <view background-size="cover" class='HomeText'>
+      <navigator url="/pages/index/index"open-type="navigate">
+      算成分
+      </navigator>
+    </view>
+  </view>
+</view>
+

@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/index/index",
+    "pages/info/info",
+    "pages/income/income"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "MEOW计算器",
+    "navigationBarTextStyle":"black"
+  },
+  
+    "debug":true
+   
+}

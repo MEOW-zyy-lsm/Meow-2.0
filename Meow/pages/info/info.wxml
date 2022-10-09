@@ -1,0 +1,123 @@
+<!--pages/info/info.wxml-->
+<image src="/pages/image/orange.png" class="in-image"></image>
+<text class="FoodSelect">选择食材</text>
+<text class="input1">主食肉</text>
+<view class="father_style">
+    <image src="/pages/image/cube_beef.png" class="image_food" ></image>
+    <text class="wenben">牛 肉</text>
+    <button bindtap="handletap" data-operation="{{-10}}"style='mini'>-</button>
+    <view class="data_style">{{num}}g</view>
+    <button bindtap="handletap" data-operation="{{10}}"style='mini'>+</button> 
+</view>
+<view class="father_style">
+    <image src="/pages/image/cube_chicken_heart.png" class="image_food" ></image>
+    <text class="wenben">鸡胸肉</text>
+    <button bindtap="handletap2" data-operation="{{-10}}"style='mini'>-</button>
+    <view class="data_style">{{num2}}g</view>
+    <button bindtap="handletap2" data-operation="{{10}}"style='mini'>+</button> 
+</view>
+<view class="father_style">
+    <image src="/pages/image/zhurou.jpg" class="image_food" ></image>
+    <text>猪肉</text>
+    <button bindtap="handletap3" data-operation="{{-10}}"style='mini'>-</button>
+    <view class="data_style">{{num3}}g</view>
+    <button bindtap="handletap3" data-operation="{{10}}"style='mini'>+</button> 
+</view>
+<view class="father_style">
+    <image src="/pages/image/tuzi.png" class="image_food" ></image>
+    <text>兔子肉</text>
+    <button bindtap="handletap4" data-operation="{{-10}}"style='mini'>-</button>
+    <view class="data_style">{{num4}}g</view>
+    <button bindtap="handletap4" data-operation="{{10}}"style='mini'>+</button> 
+</view>
+<view class="father_style">
+    <image src="/pages/image/yarou.png" class="image_food" ></image>
+    <text>鸭肉</text>
+    <button bindtap="handletap5" data-operation="{{-10}}"style='mini'>-</button>
+    <view class="data_style">{{num5}}g</view>
+    <button bindtap="handletap5" data-operation="{{10}}"style='mini'>+</button> 
+</view>
+<view class="father_style">
+    <image src="/pages/image/tuoniao.png" class="image_food" ></image>
+    <text>鸵鸟肉</text>
+    <button bindtap="handletap6" data-operation="{{-10}}"style='mini'>-</button>
+    <view class="data_style">{{num6}}g</view>
+    <button bindtap="handletap6" data-operation="{{10}}"style='mini'>+</button> 
+</view>
+<text class="input1">水产类</text>
+<view class="father_style">
+    <image src="/pages/image/cube_salmon.png" class="image_food" ></image>
+    <text>三文鱼</text>
+    <button bindtap="handletap7" data-operation="{{-10}}"style='mini'>-</button>
+    <view class="data_style">{{num7}}g</view>
+    <button bindtap="handletap7" data-operation="{{10}}"style='mini'>+</button> 
+</view>
+<view class="father_style">
+    <image src="/pages/image/xueyu.png" class="image_food" ></image>
+    <text>鳕鱼</text>
+    <button bindtap="handletap8" data-operation="{{-10}}"style='mini'>-</button>
+    <view class="data_style">{{num8}}g</view>
+    <button bindtap="handletap8" data-operation="{{10}}"style='mini'>+</button> 
+</view>
+<view class="father_style">
+    <image src="/pages/image/jinjiangyu.png" class="image_food" ></image>
+    <text>金枪鱼</text>
+    <button bindtap="handletap9" data-operation="{{-10}}"style='mini'>-</button>
+    <view class="data_style">{{num9}}g</view>
+    <button bindtap="handletap9" data-operation="{{10}}"style='mini'>+</button> 
+</view>
+<view class="father_style">
+    <image src="/pages/image/qingkoubei.jpg" class="image_food" ></image>
+    <text>青口贝</text>
+    <button bindtap="handletap10" data-operation="{{-10}}"style='mini'>-</button>
+    <view class="data_style">{{num10}}g</view>
+    <button bindtap="handletap10" data-operation="{{10}}"style='mini'>+</button> 
+</view>
+<text class="input1">蛋类</text>
+<view class="father_style">
+    <image src="/pages/image/cube_egg.png" class="image_food" ></image>
+    <text>鸡蛋</text>
+    <button bindtap="handletp11" data-operation="{{-10}}"style='mini'>-</button>
+    <view class="data_style">{{num11}}g</view>
+    <button bindtap="handletap11" data-operation="{{10}}"style='mini'>+</button> 
+</view>
+<text class="input1">脏器类</text>
+<view class="father_style">
+    <image src="/pages/image/nao.png" class="image_food" ></image>
+    <text>脑</text>
+    <button bindtap="handletap12" data-operation="{{-10}}"style='mini'>-</button>
+    <view class="data_style">{{num12}}g</view>
+    <button bindtap="handletap12" data-operation="{{10}}"style='mini'>+</button> 
+</view>
+<view class="father_style">
+    <image src="/pages/image/cube_chicken_liver.png" class="image_food" ></image>
+    <text>鸡肝</text>
+    <button bindtap="handletap13" data-operation="{{-10}}"style='mini'>-</button>
+    <view class="data_style">{{num13}}g</view>
+    <button bindtap="handletap13" data-operation="{{10}}"style='mini'>+</button> 
+</view>
+<text class="input1">添加剂</text>
+<view class="father_style">
+    <image src="/pages/image/nv.jpg" class="image_food" ></image>
+    <text>牛磺酸</text>
+    <button bindtap="handletap14" data-operation="{{-10}}"style='mini'>-</button>
+    <view class="data_style">{{num14}}mg</view>
+    <button bindtap="handletap14" data-operation="{{10}}"style='mini'>+</button> 
+</view>
+<view class="father_style">
+    <image src="/pages/image/ga.png" class="image_food" ></image>
+    <text>钙</text>
+    <button bindtap="handletap15" data-operation="{{-10}}"style='mini'>-</button>
+    <view class="data_style">{{num15}}mg</view>
+    <button bindtap="handletap15" data-operation="{{10}}"style='mini'>+</button> 
+</view>
+
+<button class='btn1'open-type="switchTab" bindtap="nutrition">营养分析</button>
+<view class=".con_style">蛋白质（g）：{{globaldanbai}}</view>
+<view class=".con_style" >脂肪（g）：{{globalzhifang}}</view>
+<view class=".con_style">钙（mg）：{{globalgai}}</view>
+<view class=".con_style">磷（mg）：{{globallin}}</view>
+<view class=".con_style">钾（mg）：{{globaljia}}</view>
+<view class=".con_style">牛磺酸（mg）：{{globalniuhuang}}</view>
+<view class=".con_style">维生素D（μg）：{{globalvd}}</view>
+<button class='btn1'open-type="switchTab" bindtap="goToPage1">成分对照</button>

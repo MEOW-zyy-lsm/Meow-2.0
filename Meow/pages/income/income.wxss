@@ -1,0 +1,68 @@
+/* pages/income/income.wxss */
+.nutri_style{
+    color:rgb(49, 47, 40);
+    text-size-adjust:120px ;
+    font-weight: 500rpx;
+    text-align: center; 
+    background-color: rgb(233, 186, 169);
+    background-size: 20px;
+    padding-bottom: 1px;
+    margin: 19px;
+}  
+.min_style{
+    color:cornsilk;
+    text-size-adjust:120px ;
+    line-height: 28px;
+    text-align:left;
+    font-weight: 480px;
+    background-color:rgb(223, 29, 29);
+    background-size: 20px;
+    margin: 19px;
+    width: 200rpx;
+}
+.max_style{
+    color:rgb(49, 47, 40);
+    text-size-adjust:120px ;
+    line-height: 28px;
+    font-weight: 500rpx;
+    text-align: center; 
+    background-color: rgb(233, 219, 32);
+    background-size: 20px;
+    margin: 19px;
+    text-align:right; 
+}
+.con_style{
+    color:cornsilk;
+    text-size-adjust:120px ;
+    line-height: 28px;
+    font-weight: 480px;
+    background-color:rgb(23, 163, 23);
+    background-size: 20px;
+    margin: 19px;
+    width: 350rpx;
+    text-align:center; 
+}
+.in-image{
+    justify-content: center;
+    width: 320px;
+    height: 168px;
+    align-items: center;
+    padding-left: 50rpx;
+    left: 500px;
+}
+.FoodAnalyze{
+    width: 680rpx;
+    height: 128rpx;
+    margin: 20rpx;
+    color: lightcoral;
+    font-weight: 800;
+    font-size: 30px;
+    font-family:initial;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    padding-left: 36rpx;
+    background-color: rgb(231, 175, 158);
+}
+
+  

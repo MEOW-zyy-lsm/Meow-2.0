@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "inputModel":"../../component/inputModel/inputModel",
+    "model":"../../component/model/model"
+  }
+}
